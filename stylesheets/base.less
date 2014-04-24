@@ -12,6 +12,10 @@
   .indent-guide {
     color: fade(@text-color, 20%);
   }
+  
+  .wrap-guide {
+    background-color: fade(@text-color, 30%);
+  }
 
   .gutter {
     background-color: darken(@base, 2%);
@@ -34,7 +38,7 @@
   }
 
   .selection .region {
-    background-color: fade(@red, 20%);
+    background-color: @selection-background;
   }
 
   .line-number.cursor-line-no-selection {
@@ -52,7 +56,31 @@
 }
 
 .entity {
-  color: @entity;
+  color: @entity02;
+  
+  &.name {
+    &.function {
+      color: @entity02;
+    }
+    &.tag {
+      color: @entity;
+    }
+    &.class {
+      color: @entity02;
+      text-decoration: underline;
+    }
+  }
+  
+  &.other  {
+    &.inherited-class {
+      font-style: italic;
+      text-decoration: underline;
+      color: @entity02;
+    }
+    &.attribute-name {
+      color: @entity02;
+    }
+  }
 }
 
 .keyword {
@@ -92,6 +120,11 @@
 
 .invalid.illegal {
   color: @red;
+}
+
+.support.type, .support.class {
+  font-style: italic;
+  color: @storage;
 }
 
 .string {

@@ -1,12 +1,12 @@
 {
-  "name": "atom-monokai",
+  "name": "brendan-monokai",
   "theme": "syntax",
   "version": "0.2.0",
   "private": true,
   "description": "Atom syntax theme inspired by monokai. Works with Atom Dark and Light UI.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/burntime/atom-monokai"
+    "url": "https://github.com/bblackwood/atom-monokai"
   },
   "license": "MIT",
   "engines": {
@@ -15,9 +15,9 @@
   "readme": "# atom-monokai theme\n\nAtom syntax theme inspired by [monokai](http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/).\nWorks with Atom Dark and Light UI.\n\n![](https://raw.github.com/burntime/atom-monokai/master/screenshot.png)\n",
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/burntime/atom-monokai/issues"
+    "url": "https://github.com/bblackwood/atom-monokai/issues"
   },
-  "homepage": "https://github.com/burntime/atom-monokai",
+  "homepage": "https://github.com/bblackwood/atom-monokai",
   "_id": "atom-monokai@0.1.0",
   "dist": {
     "shasum": "4cd9c25def7cd564111f923a3c8e817175abdf4c"
