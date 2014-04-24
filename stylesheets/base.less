@@ -44,6 +44,18 @@
   .line-number.cursor-line-no-selection {
     background-color: @background-color-highlight;
   }
+  
+  .lines .markup.git-commit{
+    .changed {
+      color: @modified;
+    }
+    .added {
+      color: @added;
+    }
+    .deleted {
+      color: @removed;
+    }
+  }
 }
 
 .bracket-matcher {
