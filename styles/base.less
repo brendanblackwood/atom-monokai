@@ -2,12 +2,12 @@
 @import "colors";
 @import "mixin";
 
-.editor-colors {
+atom-text-editor, :host {
   .base-background (@base);
   .base-text-color (@base);
 }
 
-.editor {
+atom-text-editor, :host {
   .invisible-character,
   .indent-guide {
     color: fade(@text-color, 20%);
@@ -57,7 +57,7 @@
   }
 }
 
-.bracket-matcher {
+.bracket-matcher .region {
   background-color: @text-color-highlight;
   opacity: 0.2;
 }
